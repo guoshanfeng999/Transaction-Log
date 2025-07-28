@@ -27,38 +27,6 @@ services:
     staticPublishPath: ./client/build
     envVars:
       - key: REACT_APP_API_URL
-        value: 2025-07-28T20:05:38.332127904Z ==> Cloning from https://github.com/guoshanfeng999/Transaction-Log
-2025-07-28T20:05:38.798156483Z ==> Checking out commit 6ecc244c3a44535c8e28d929ce4b11db93c57cea in branch main
-2025-07-28T20:05:40.396988699Z ==> Using Node.js version 22.16.0 (default)
-2025-07-28T20:05:40.422479441Z ==> Docs on specifying a Node.js version: https://render.com/docs/node-version
-2025-07-28T20:05:42.347733732Z ==> Using Bun version 1.1.0 (default)
-2025-07-28T20:05:42.347753303Z ==> Docs on specifying a Bun version: https://render.com/docs/bun-version
-2025-07-28T20:05:42.41066401Z ==> Running build command 'npm install'...
-2025-07-28T20:05:52.861956868Z 
-2025-07-28T20:05:52.86198203Z added 184 packages, and audited 185 packages in 10s
-2025-07-28T20:05:52.86199454Z 
-2025-07-28T20:05:52.862004491Z 26 packages are looking for funding
-2025-07-28T20:05:52.862012711Z   run `npm fund` for details
-2025-07-28T20:05:52.862876215Z 
-2025-07-28T20:05:52.862885146Z found 0 vulnerabilities
-2025-07-28T20:05:55.404821827Z ==> Uploading build...
-2025-07-28T20:06:00.840795327Z ==> Uploaded in 3.6s. Compression took 1.8s
-2025-07-28T20:06:00.856034218Z ==> Build successful 🎉
-2025-07-28T20:06:03.634746615Z ==> Deploying...
-2025-07-28T20:06:21.798976395Z ==> Running 'node server/index.js'
-2025-07-28T20:06:26.097481538Z 服务器运行在端口 10000
-2025-07-28T20:06:26.097505348Z 环境: production
-2025-07-28T20:06:26.097785676Z MongoDB连接失败，使用模拟数据模式
-2025-07-28T20:06:26.098969407Z 错误详情: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
-2025-07-28T20:06:26.344646555Z Error: ENOENT: no such file or directory, stat '/opt/render/project/src/client/build/index.html'
-2025-07-28T20:06:34.634846126Z ==> Your service is live 🎉
-2025-07-28T20:06:34.663288602Z ==> 
-2025-07-28T20:06:34.688698459Z ==> ///////////////////////////////////////////////////////////
-2025-07-28T20:06:34.723722014Z ==> 
-2025-07-28T20:06:34.749256191Z ==> Available at your primary URL https://transaction-log-jzxc.onrender.com
-2025-07-28T20:06:34.774951207Z ==> 
-2025-07-28T20:06:34.802217114Z ==> ///////////////////////////////////////////////////////////
-2025-07-28T20:06:35.759604438Z Error: ENOENT: no such file or directory, stat '/opt/render/project/src/client/build/index.html'
-https://transaction-log-jzxc.onrender.com
+        value: https://transaction-log-jzxc.onrender.com
       - key: REACT_APP_SOCKET_URL
         value: https://transaction-log-jzxc.onrender.com 
