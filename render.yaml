@@ -16,16 +16,16 @@ services:
       - key: JWT_SECRET
         generateValue: true
       - key: CORS_ORIGIN
-        value: https://trading-journal-frontend.onrender.com
+        value: https://transaction-log-frontend.onrender.com
 
   # 前端React应用
   - type: static
-    name: trading-journal-frontend
+    name: transaction-log-frontend
     plan: free
     buildCommand: cd client && npm install && npm run build
     staticPublishPath: ./client/build
     envVars:
       - key: REACT_APP_API_URL
-        value: https://trading-journal-api.onrender.com
+        value: https://transaction-log-jzxc.onrender.com
       - key: REACT_APP_SOCKET_URL
-        value: https://trading-journal-api.onrender.com 
+        value: https://transaction-log-jzxc.onrender.com 
