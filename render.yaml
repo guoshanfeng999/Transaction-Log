@@ -19,9 +19,8 @@ services:
         value: https://trading-journal-frontend.onrender.com
 
   # 前端React应用
-  - type: web
+  - type: static
     name: trading-journal-frontend
-    env: static
     plan: free
     buildCommand: cd client && npm install && npm run build
     staticPublishPath: ./client/build
