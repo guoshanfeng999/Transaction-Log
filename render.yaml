@@ -4,7 +4,7 @@ services:
     name: trading-journal-api
     env: node
     plan: free
-    buildCommand: npm run install-all
+    buildCommand: npm install
     startCommand: cd server && npm start
     envVars:
       - key: NODE_ENV
